@@ -979,19 +979,27 @@ foreach ($source in $companies) {
 
     $locationText = $location.ToLowerInvariant()
     $locationOk = $locationText -match 'india|bengaluru|bangalore|hyderabad|gurugram|noida|pune|chennai|kochi|remote - india|india remote|remote india'
-    $strictTitleOk = $title.ToLowerInvariant() -match 'data engineer|data platform engineer|analytics engineer|azure data engineer|databricks data engineer|pyspark data engineer|spark data engineer|big data engineer|etl developer|data pipeline engineer'
-    $stackOk = $hay -match 'pyspark|spark|databricks|azure|data factory|adls|delta lake|sql|python|airflow|etl|data pipeline'
     $rejectOk = $hay -notmatch 'intern|principal|architect|manager|director|staff|staffing|contract-only|technical services|customer support|support engineer|partner engineer|sales|account executive|researcher'
-    if (-not ($locationOk -and $strictTitleOk -and $stackOk -and $rejectOk)) {
+    if ($profile -eq "backend-engineering" -or $profile -eq "backend-all-companies") {
+      $roleOk = $title.ToLowerInvariant() -match 'backend engineer|backend developer|software engineer backend|backend software engineer|platform engineer|api engineer|java engineer|spring boot engineer|distributed systems engineer|full stack backend|backend|api|java|spring boot|microservice|service'
+      $stackOk = $hay -match 'backend|api|java|spring boot|microservice|distributed systems|system design|rest api|sql|database|server side|service|kafka|docker|kubernetes|aws|azure'
       $nearMissOk = $locationOk -and $rejectOk -and (
-        ($title.ToLowerInvariant() -match 'data engineer|data platform|analytics engineer|data infrastructure|data warehouse|etl|data pipeline|big data|business intelligence|bi engineer')
+        $title.ToLowerInvariant() -match 'backend|api|java|spring boot|microservice|platform|distributed systems|system design|service'
       )
+    } else {
+      $roleOk = $title.ToLowerInvariant() -match 'data engineer|data platform engineer|analytics engineer|azure data engineer|databricks data engineer|pyspark data engineer|spark data engineer|big data engineer|etl developer|data pipeline engineer'
+      $stackOk = $hay -match 'pyspark|spark|databricks|azure|data factory|adls|delta lake|sql|python|airflow|etl|data pipeline'
+      $nearMissOk = $locationOk -and $rejectOk -and (
+        $title.ToLowerInvariant() -match 'data engineer|data platform|analytics engineer|data infrastructure|data warehouse|etl|data pipeline|big data|business intelligence|bi engineer'
+      )
+    }
+    if (-not ($locationOk -and $roleOk -and $stackOk -and $rejectOk)) {
       if ($nearMissOk) {
         $nearScore = Score-Job $source.company $title $location $content
         $nearFit = [Math]::Min(86, [Math]::Max(66, $nearScore.fit - 8))
         $canonical = Canonical-Url $url
         $nearKeywords = @($nearScore.keywords)
-        if (-not $nearKeywords.Count) { $nearKeywords = @("Data engineering", "India") }
+        if (-not $nearKeywords.Count) { $nearKeywords = @("Backend engineering", "India") }
         $nearRecord = [ordered]@{
           id = if ($job.id) { "near:" + [string]$job.id } else { "near:" + $canonical }
           company = $source.company
