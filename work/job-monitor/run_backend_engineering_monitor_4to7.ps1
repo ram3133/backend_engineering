@@ -8,7 +8,7 @@ $env:ROLEPILOT_MAX_YEARS = if ($env:ROLEPILOT_MAX_YEARS) { [string]$env:ROLEPILO
 $env:ROLEPILOT_WRITE_APP_OUTPUTS = "false"
 
 if (-not $env:ROLEPILOT_NTFY_TOPIC) {
-  $env:ROLEPILOT_NTFY_TOPIC = "https://ntfy.sh/Backend_engineer_jobs"
+  $env:ROLEPILOT_NTFY_TOPIC = "https://ntfy.sh/backend_engineering"
 }
 
 & (Join-Path $PSScriptRoot "run_gcc_product_monitor.ps1")
