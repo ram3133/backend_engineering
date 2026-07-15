@@ -369,8 +369,8 @@ switch ($profile) {
   }
   "backend-engineering" {
     $profileLabel = "Backend Engineering"
-    $profileMinYears = if ($env:ROLEPILOT_MIN_YEARS) { [int]$env:ROLEPILOT_MIN_YEARS } else { 4 }
-    $profileMaxYears = if ($env:ROLEPILOT_MAX_YEARS) { [int]$env:ROLEPILOT_MAX_YEARS } else { 7 }
+    $profileMinYears = if ($env:ROLEPILOT_MIN_YEARS) { [int]$env:ROLEPILOT_MIN_YEARS } else { 3 }
+    $profileMaxYears = if ($env:ROLEPILOT_MAX_YEARS) { [int]$env:ROLEPILOT_MAX_YEARS } else { 5 }
     $rolePattern = 'backend engineer|backend developer|software engineer backend|backend software engineer|platform engineer|api engineer|server side engineer|server-side engineer|java engineer|spring boot engineer|distributed systems engineer'
     $stackPattern = 'java|core java|spring boot|rest api|restful|microservices|sql|junit|mockito|jdbc|postman|swagger|sonarqube|git|copilot|kafka|redis|postgres|mysql|mongodb|docker|kubernetes|aws|azure|ci/cd|maven|gradle'
     $rejectPattern = 'intern|principal|director|manager|architect|training course|certification|question paper|walkin|walk-in|bpo|support|customer support|sales|account executive|front end|frontend|ui engineer|ux|manual testing|qa automation|selenium'
@@ -388,17 +388,17 @@ switch ($profile) {
       [ordered]@{ name = "India Remote Java Backend"; role = "Backend Engineer"; location = "India Remote"; url = "https://www.linkedin.com/jobs/search/?keywords=Java%20Backend%20Engineer%20SQL%20Microservices&location=India&f_E=$profileMinYears&f_TPR=r604800&f_WT=2%2C3"; cadence = "Daily"; lane = "LinkedIn Discovery" }
     )
     $broadDiscoveryQueries = @(
-      [ordered]@{ name = "Backend Engineering India"; query = '("Backend Engineer" OR "Backend Developer" OR "Software Engineer Backend" OR "Platform Engineer" OR "API Engineer" OR "Java Backend Engineer") ("Bengaluru" OR "Hyderabad" OR "Kochi" OR "India Remote" OR "India") (apply OR careers OR jobs OR hiring)'; maxResults = 25 },
+      [ordered]@{ name = "Backend Engineering India"; query = '("Backend Engineer" OR "Backend Developer" OR "Software Engineer Backend" OR "Platform Engineer" OR "API Engineer" OR "Java Backend Engineer" OR "Spring Boot Engineer") ("Bengaluru" OR "Hyderabad" OR "Kochi" OR "India Remote" OR "India") (apply OR careers OR jobs OR hiring)'; maxResults = 25 },
       [ordered]@{ name = "Backend Java Spring India"; query = '("Java Backend" OR "Spring Boot" OR "Microservices" OR "Distributed Systems Engineer" OR "REST API" OR "API Testing" OR "Core Java") ("Bengaluru" OR "Hyderabad" OR "India") (job OR apply OR careers)'; maxResults = 25 },
-      [ordered]@{ name = "Backend GCC India"; query = '("Backend Engineer" OR "Backend Software Engineer" OR "Platform Engineer" OR "Core Java Engineer" OR "Java Backend Engineer") ("GCC" OR "product company" OR "careers" OR "apply") ("India" OR "Bengaluru" OR "Hyderabad")'; maxResults = 20 },
-      [ordered]@{ name = "Backend Direct ATS India"; query = '("Backend Engineer" OR "Backend Developer" OR "Platform Engineer" OR "API Engineer" OR "Core Java Engineer" OR "Java Backend Engineer") ("India" OR "Bengaluru" OR "Hyderabad" OR "Kochi" OR "Pune" OR "Chennai") (greenhouse OR lever OR workdayjobs OR smartrecruiters)'; maxResults = 25 },
-      [ordered]@{ name = "Backend Recent Posts India"; query = 'site:linkedin.com/jobs/view ("Backend Engineer" OR "Backend Developer" OR "Platform Engineer" OR "API Engineer" OR "Core Java Engineer" OR "Java Backend Engineer") ("India" OR "Bengaluru" OR "Hyderabad" OR "Remote")'; maxResults = 25 }
+      [ordered]@{ name = "Backend Service Companies India"; query = '("Java Backend" OR "Spring Boot" OR "Microservices" OR "Distributed Systems Engineer" OR "REST API" OR "API Testing" OR "Core Java") (TCS OR Infosys OR Wipro OR Accenture OR Cognizant OR Capgemini OR IBM OR HCL OR Tech Mahindra OR LTIMindtree OR Persistent OR UST OR Mphasis OR Hexaware OR Nagarro) ("India" OR "Bengaluru" OR "Hyderabad" OR "Pune" OR "Chennai")'; maxResults = 30 },
+      [ordered]@{ name = "Backend Direct ATS India"; query = '("Backend Engineer" OR "Backend Developer" OR "Platform Engineer" OR "API Engineer" OR "Core Java Engineer" OR "Java Backend Engineer") ("India" OR "Bengaluru" OR "Hyderabad" OR "Kochi" OR "Pune" OR "Chennai" OR "Mumbai") (greenhouse OR lever OR workdayjobs OR smartrecruiters OR taleo OR successfactors)'; maxResults = 30 },
+      [ordered]@{ name = "Backend Recent Posts India"; query = 'site:linkedin.com/jobs/view ("Backend Engineer" OR "Backend Developer" OR "Platform Engineer" OR "API Engineer" OR "Core Java Engineer" OR "Java Backend Engineer" OR "Spring Boot Engineer") ("India" OR "Bengaluru" OR "Hyderabad" OR "Remote")'; maxResults = 25 }
     )
   }
   "backend-all-companies" {
     $profileLabel = "Backend Engineering (All Companies)"
-    $profileMinYears = if ($env:ROLEPILOT_MIN_YEARS) { [int]$env:ROLEPILOT_MIN_YEARS } else { 4 }
-    $profileMaxYears = if ($env:ROLEPILOT_MAX_YEARS) { [int]$env:ROLEPILOT_MAX_YEARS } else { 7 }
+    $profileMinYears = if ($env:ROLEPILOT_MIN_YEARS) { [int]$env:ROLEPILOT_MIN_YEARS } else { 3 }
+    $profileMaxYears = if ($env:ROLEPILOT_MAX_YEARS) { [int]$env:ROLEPILOT_MAX_YEARS } else { 5 }
     $rolePattern = 'backend engineer|backend developer|software engineer backend|backend software engineer|platform engineer|api engineer|server side engineer|server-side engineer|java engineer|spring boot engineer|distributed systems engineer|full stack backend'
     $stackPattern = 'java|core java|spring boot|rest api|restful|microservices|sql|junit|mockito|jdbc|postman|swagger|sonarqube|git|copilot|kafka|redis|postgres|mysql|mongodb|docker|kubernetes|aws|azure|ci/cd|maven|gradle|python|node\.?js|typescript'
     $rejectPattern = 'intern|principal|director|manager|architect|training course|certification|question paper|walkin|walk-in|bpo|support|customer support|sales|account executive|front end|frontend|ui engineer|ux|manual testing|qa automation|selenium'
@@ -417,15 +417,15 @@ switch ($profile) {
     $broadDiscoveryQueries = @(
       [ordered]@{ name = "Backend Engineering India"; query = '("Backend Engineer" OR "Backend Developer" OR "Software Engineer Backend" OR "Platform Engineer" OR "API Engineer" OR "Java Backend Engineer" OR "Spring Boot Engineer") ("India" OR "Bengaluru" OR "Hyderabad" OR "Kochi" OR "Pune" OR "Chennai" OR "Mumbai") (apply OR careers OR jobs OR hiring)'; maxResults = 30 },
       [ordered]@{ name = "Backend Service Companies India"; query = '("Java Backend" OR "Spring Boot" OR "Microservices" OR "Distributed Systems Engineer" OR "REST API" OR "API Testing" OR "Core Java") (TCS OR Infosys OR Wipro OR Accenture OR Cognizant OR Capgemini OR IBM OR HCL OR Tech Mahindra OR LTIMindtree OR Persistent OR UST OR Mphasis OR Hexaware OR Nagarro) ("India" OR "Bengaluru" OR "Hyderabad" OR "Pune" OR "Chennai")'; maxResults = 30 },
-      [ordered]@{ name = "Backend GCC and Product India"; query = '("Backend Engineer" OR "Backend Developer" OR "Platform Engineer" OR "Core Java Engineer" OR "Java Backend Engineer") ("GCC" OR "product company" OR "careers" OR "apply") ("India" OR "Bengaluru" OR "Hyderabad")'; maxResults = 20 },
+      [ordered]@{ name = "Backend Product and GCC India"; query = '("Backend Engineer" OR "Backend Developer" OR "Platform Engineer" OR "Core Java Engineer" OR "Java Backend Engineer") ("GCC" OR "product company" OR "careers" OR "apply") ("India" OR "Bengaluru" OR "Hyderabad")'; maxResults = 20 },
       [ordered]@{ name = "Backend Direct ATS India"; query = '("Backend Engineer" OR "Backend Developer" OR "Platform Engineer" OR "API Engineer" OR "Core Java Engineer" OR "Java Backend Engineer") ("India" OR "Bengaluru" OR "Hyderabad" OR "Kochi" OR "Pune" OR "Chennai" OR "Mumbai") (greenhouse OR lever OR workdayjobs OR smartrecruiters OR taleo OR successfactors)'; maxResults = 30 },
       [ordered]@{ name = "Backend Recent Posts India"; query = 'site:linkedin.com/jobs/view ("Backend Engineer" OR "Backend Developer" OR "Platform Engineer" OR "API Engineer" OR "Core Java Engineer" OR "Java Backend Engineer" OR "Spring Boot Engineer") ("India" OR "Bengaluru" OR "Hyderabad" OR "Remote")'; maxResults = 25 }
     )
   }
   default {
     $profileLabel = "Data Engineering"
-    $profileMinYears = if ($env:ROLEPILOT_MIN_YEARS) { [int]$env:ROLEPILOT_MIN_YEARS } else { 4 }
-    $profileMaxYears = if ($env:ROLEPILOT_MAX_YEARS) { [int]$env:ROLEPILOT_MAX_YEARS } else { 7 }
+    $profileMinYears = if ($env:ROLEPILOT_MIN_YEARS) { [int]$env:ROLEPILOT_MIN_YEARS } else { 3 }
+    $profileMaxYears = if ($env:ROLEPILOT_MAX_YEARS) { [int]$env:ROLEPILOT_MAX_YEARS } else { 5 }
     $rolePattern = 'data engineer|data platform|analytics engineer|azure data|databricks data|pyspark|spark data|big data|etl|data pipeline|bi engineer|business intelligence'
     $stackPattern = 'pyspark|spark|databricks|azure|data factory|adls|delta lake|sql|python|airflow|etl|data pipeline|analytics engineer|snowflake'
     $rejectPattern = 'intern|principal|director|manager|architect|training course|certification|question paper|walkin|walk-in|bpo|support'
