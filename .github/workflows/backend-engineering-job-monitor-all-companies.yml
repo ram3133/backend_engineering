@@ -2,7 +2,7 @@ name: Backend Engineering Job Monitor All Companies 4-7 Years
 
 on:
   schedule:
-    - cron: "0 */2 * * *"
+    - cron: "*/30 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -21,7 +21,7 @@ jobs:
       GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
       GOOGLE_CSE_ID: ${{ secrets.GOOGLE_CSE_ID }}
       ROLEPILOT_PROFILE: "backend-all-companies"
-      ROLEPILOT_MIN_YEARS: "4"
+      ROLEPILOT_MIN_YEARS: "3"
       ROLEPILOT_MAX_YEARS: "7"
       ROLEPILOT_NTFY_TOPIC: "https://ntfy.sh/Backend_engineer_jobs"
       ROLEPILOT_WRITE_APP_OUTPUTS: "false"
