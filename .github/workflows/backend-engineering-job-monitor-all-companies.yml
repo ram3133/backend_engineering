@@ -23,7 +23,7 @@ jobs:
       ROLEPILOT_PROFILE: "backend-all-companies"
       ROLEPILOT_MIN_YEARS: "3"
       ROLEPILOT_MAX_YEARS: "7"
-      ROLEPILOT_NTFY_TOPIC: "https://ntfy.sh/Backend_engineer_jobs"
+      ROLEPILOT_NTFY_TOPIC: "https://ntfy.sh/backend_engineering"
       ROLEPILOT_WRITE_APP_OUTPUTS: "false"
 
     steps:
