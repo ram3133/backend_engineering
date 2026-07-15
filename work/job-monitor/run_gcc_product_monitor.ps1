@@ -376,8 +376,9 @@ switch ($profile) {
     $rejectPattern = 'intern|principal|director|manager|architect|training course|certification|question paper|walkin|walk-in|bpo|support|customer support|sales|account executive|front end|frontend|ui engineer|ux|manual testing|qa automation|selenium'
     $roleBoostKeywords = @("backend engineer","backend developer","software engineer backend","backend software engineer","platform engineer","api engineer","java engineer","spring boot engineer","distributed systems engineer")
     $stackBoostKeywords = @("java","core java","spring boot","rest api","microservices","sql","junit","mockito","jdbc","postman","swagger","sonarqube","git","copilot")
-    $platformBoostKeywords = @("rest apis","api development","service oriented","event driven","backend systems")
-    $cloudBoostKeywords = @("docker","kubernetes","aws","azure","ci/cd","maven","gradle","sonarqube")
+    $platformBoostKeywords = @("rest apis","api development","service oriented","event driven","backend systems","full stack","distributed systems","system design")
+    $cloudBoostKeywords = @("docker","kubernetes","aws","azure","ci/cd","maven","gradle","sonarqube","git","github","gitlab","linux")
+    $genericBackendKeywords = @("backend","api","apis","microservice","microservices","service","services","distributed systems","system design","sql","database","rest","rest api","server side","server-side")
     $locationPattern = 'bengaluru|bangalore|hyderabad|kochi|pune|chennai|gurugram|noida|mumbai|india|india remote|remote india'
     $linkedInSearches = @(
       [ordered]@{ name = "Bengaluru Java Spring Boot"; role = "Java Backend Engineer"; location = "Bengaluru, Karnataka, India"; url = "https://www.linkedin.com/jobs/search/?keywords=Java%20Spring%20Boot%20Backend&location=Bengaluru%2C%20Karnataka%2C%20India&f_E=$profileMinYears&f_TPR=r604800"; cadence = "Daily"; lane = "LinkedIn Discovery" },
@@ -600,20 +601,34 @@ function Score-Job($company, $title, $location, $text) {
   $modeling = 55
   $keywords = New-Object System.Collections.Generic.List[string]
 
-  foreach ($kw in @("data engineer","senior data engineer","data engineer ii","azure data engineer","databricks engineer","data platform engineer","analytics engineer","etl developer","big data engineer","data pipeline engineer")) {
-    if ($hay.Contains($kw)) { $fit += 14; $keywords.Add($kw) }
-  }
-  foreach ($kw in @("spark","pyspark","spark sql")) {
-    if ($hay.Contains($kw)) { $fit += 8; $databricks += 8; $keywords.Add($kw) }
-  }
-  foreach ($kw in @("databricks","delta lake","unity catalog","lakehouse")) {
-    if ($hay.Contains($kw)) { $fit += 10; $databricks += 14; $keywords.Add($kw) }
-  }
-  foreach ($kw in @("azure","adf","data factory","adls")) {
-    if ($hay.Contains($kw)) { $fit += 8; $azure += 14; $keywords.Add($kw) }
-  }
-  foreach ($kw in @("sql","python","airflow","etl","data pipeline","data pipelines")) {
-    if ($hay.Contains($kw)) { $fit += 4; $modeling += 5; $keywords.Add($kw) }
+  if ($profile -eq "backend-engineering" -or $profile -eq "backend-all-companies") {
+    foreach ($kw in @("backend engineer","backend developer","software engineer backend","backend software engineer","platform engineer","api engineer","java engineer","spring boot engineer","distributed systems engineer","full stack backend")) {
+      if ($hay.Contains($kw)) { $fit += 14; $keywords.Add($kw) }
+    }
+    foreach ($kw in @("java","core java","spring boot","rest api","microservices","sql","junit","mockito","jdbc","postman","swagger","sonarqube","kafka","redis","postgres","mysql","mongodb","docker","kubernetes","aws","azure","ci/cd","maven","gradle")) {
+      if ($hay.Contains($kw)) { $fit += 6; $keywords.Add($kw) }
+    }
+    foreach ($kw in $genericBackendKeywords) {
+      if ($hay.Contains($kw)) { $fit += 4; $keywords.Add($kw) }
+    }
+    if ($hay -match 'backend|api|service|microservice|distributed|system design|sql|database') { $fit += 8 }
+    if ($hay -match 'java|spring boot|rest api|microservices|kafka|docker|kubernetes|aws|azure') { $fit += 6 }
+  } else {
+    foreach ($kw in @("data engineer","senior data engineer","data engineer ii","azure data engineer","databricks engineer","data platform engineer","analytics engineer","etl developer","big data engineer","data pipeline engineer")) {
+      if ($hay.Contains($kw)) { $fit += 14; $keywords.Add($kw) }
+    }
+    foreach ($kw in @("spark","pyspark","spark sql")) {
+      if ($hay.Contains($kw)) { $fit += 8; $databricks += 8; $keywords.Add($kw) }
+    }
+    foreach ($kw in @("databricks","delta lake","unity catalog","lakehouse")) {
+      if ($hay.Contains($kw)) { $fit += 10; $databricks += 14; $keywords.Add($kw) }
+    }
+    foreach ($kw in @("azure","adf","data factory","adls")) {
+      if ($hay.Contains($kw)) { $fit += 8; $azure += 14; $keywords.Add($kw) }
+    }
+    foreach ($kw in @("sql","python","airflow","etl","data pipeline","data pipelines")) {
+      if ($hay.Contains($kw)) { $fit += 4; $modeling += 5; $keywords.Add($kw) }
+    }
   }
   foreach ($kw in @("bengaluru","bangalore","hyderabad","kochi","pune","chennai","gurugram","noida","india remote","remote india")) {
     if ($hay.Contains($kw)) { $fit += 3 }
@@ -755,7 +770,11 @@ function Get-DiscoveryHost($url) {
 
 function Test-DiscoveryCandidate($title, $link, $description) {
   $hay = "$title $link $description".ToLowerInvariant()
-  if ($hay -notmatch 'data engineer|senior data engineer|data platform|azure data|databricks|pyspark|spark engineer|spark sql|big data|etl developer|data pipeline|analytics engineer') { return $false }
+  if ($profile -eq "backend-engineering" -or $profile -eq "backend-all-companies") {
+    if ($hay -notmatch 'backend|api|java|spring boot|microservice|distributed systems|system design|rest api|sql|database|server side|service') { return $false }
+  } elseif ($hay -notmatch 'data engineer|senior data engineer|data platform|azure data|databricks|pyspark|spark engineer|spark sql|big data|etl developer|data pipeline|analytics engineer') {
+    return $false
+  }
   if ($hay -notmatch 'bengaluru|bangalore|hyderabad|kochi|pune|chennai|gurugram|noida|india|india remote|remote india') { return $false }
   if ($hay -match 'internship|intern|principal|director|manager|architect|training course|certification|question paper|walkin|walk-in|bpo|support') { return $false }
   if ($link -notmatch 'linkedin\.com/jobs|greenhouse|lever\.co|myworkdayjobs|smartrecruiters|careers|jobs|job|naukri|indeed|foundit|instahyre|hirist') { return $false }
