@@ -2,7 +2,7 @@ name: Backend Engineering Job Monitor All Companies 4-7 Years
 
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "0 */2 * * *"
   workflow_dispatch:
 
 permissions:
