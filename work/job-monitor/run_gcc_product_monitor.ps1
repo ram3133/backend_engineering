@@ -1042,7 +1042,7 @@ foreach ($source in $companies) {
       }
     }
     $notes = "Official $($source.company) careers feed; classification $($source.confidence)"
-    $fitReason = "Matches Sarath's data engineering profile through " + (($score.keywords | Select-Object -First 5) -join ", ")
+    $fitReason = "Matches Sarath's backend engineering profile through " + (($score.keywords | Select-Object -First 5) -join ", ")
 
     $record = [ordered]@{
       id = if ($job.id) { [string]$job.id } else { $canonical }
@@ -1085,7 +1085,7 @@ foreach ($querySource in $broadDiscoveryQueries) {
 
     $canonical = Canonical-Url $url
     $keywordList = @($score.keywords)
-    if (-not $keywordList.Count) { $keywordList = @("Data Engineer", "India discovery") }
+    if (-not $keywordList.Count) { $keywordList = @("Backend Engineer", "India discovery") }
     $record = [ordered]@{
       id = if ($job.id) { [string]$job.id } else { $canonical }
       company = [string]$job.company
@@ -1124,7 +1124,7 @@ foreach ($searchSource in $linkedInSearches) {
 
     $canonical = Canonical-Url $url
     $keywordList = @($score.keywords)
-    if (-not $keywordList.Count) { $keywordList = @("Data Engineer", "LinkedIn India discovery") }
+    if (-not $keywordList.Count) { $keywordList = @("Backend Engineer", "LinkedIn India discovery") }
     $record = [ordered]@{
       id = if ($job.id) { [string]$job.id } else { $canonical }
       company = [string]$job.company
