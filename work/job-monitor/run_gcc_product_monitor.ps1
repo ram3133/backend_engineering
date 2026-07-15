@@ -471,9 +471,16 @@ function Is-FeedRecordValid($job) {
   if (-not (Is-IndiaLocation $job.location)) { return $false }
   if (Is-NonIndiaRemote $job.location) { return $false }
   $roleText = ([string]$job.role).ToLowerInvariant()
-  if ($roleText -notmatch 'data engineer|data platform|analytics engineer|azure data|databricks data|pyspark|spark data|big data|etl|data pipeline|bi engineer|business intelligence') { return $false }
+  if ($profile -eq "backend-engineering" -or $profile -eq "backend-all-companies") {
+    if ($roleText -notmatch 'backend engineer|backend developer|software engineer backend|backend software engineer|platform engineer|api engineer|java engineer|spring boot engineer|distributed systems engineer|full stack backend|backend') { return $false }
+  } else {
+    if ($roleText -notmatch 'data engineer|data platform|analytics engineer|azure data|databricks data|pyspark|spark data|big data|etl|data pipeline|bi engineer|business intelligence') { return $false }
+  }
   $text = "$($job.company) $($job.role) $($job.location) $($job.notes) $($job.fitReason) $($job.keywords)".ToLowerInvariant()
   if ($text -match 'internship|intern|principal|director|manager|architect|training course|certification|question paper|walkin|walk-in|bpo|support') { return $false }
+  if ($profile -eq "backend-engineering" -or $profile -eq "backend-all-companies") {
+    return $text -match 'backend|api|java|spring boot|microservice|distributed systems|system design|rest api|sql|database|server side|service'
+  }
   return $text -match 'data engineer|data platform|azure data|databricks|pyspark|spark|big data|etl|data pipeline|analytics engineer|snowflake'
 }
 
