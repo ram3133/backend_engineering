@@ -1,5 +1,5 @@
 ﻿{
-    "updatedAt":  "2026-11-10T04:12:32+00:00",
+    "updatedAt":  "2026-11-10T12:49:23+00:00",
     "jobs":  [
                  {
                      "id":  "8775507002",
@@ -48,18 +48,17 @@
                      "modelingScore":  55
                  },
                  {
-                     "id":  "linkedin:4488834644",
-                     "company":  " SalesForce-ad ",
-                     "role":  "Software Engineering, SMTS/MTS (Backend + Kubernetes/Docker/Helm)",
-                     "location":  "Hyderabad, Telangana, India",
-                     "link":  "https://www.linkedin.com/jobs/view/software-engineering-smts-mts-backend-%2B-kubernetes-docker-helm-at-salesforce-ad-4488834644/",
-                     "postedDate":  "40 minutes ago",
+                     "id":  "linkedin:4486849147",
+                     "company":  " Global Payments Inc. ",
+                     "role":  "Software Engineer(Java Backend Technologies)",
+                     "location":  "Pune/Pimpri-Chinchwad Area",
+                     "link":  "https://www.linkedin.com/jobs/view/software-engineer-java-backend-technologies-at-global-payments-inc-4486849147/",
+                     "postedDate":  "6 days ago",
                      "fit":  100,
-                     "fitReason":  "LinkedIn public India discovery match from India Remote Platform Engineer; verify JD, company, experience, and salary before applying",
+                     "fitReason":  "LinkedIn public India discovery match from India Remote Java Backend; verify JD, company, experience, and salary before applying",
                      "keywords":  [
-                                      "platform engineer",
-                                      "docker",
-                                      "kubernetes"
+                                      "backend engineer",
+                                      "java"
                                   ],
                      "applyType":  "External Apply",
                      "classificationConfidence":  "Discovery",
@@ -69,11 +68,155 @@
                      "modelingScore":  55
                  },
                  {
-                     "id":  "linkedin:4485306715",
-                     "company":  " PayPay India ",
-                     "role":  "Backend Engineer",
-                     "location":  "Gurugram, Haryana, India",
-                     "link":  "https://www.linkedin.com/jobs/view/backend-engineer-at-paypay-india-4485306715/",
+                     "id":  "linkedin:4484675648",
+                     "company":  " Accompany Health ",
+                     "role":  "Senior Backend Engineer (Java)",
+                     "location":  "Bengaluru, Karnataka, India",
+                     "link":  "https://www.linkedin.com/jobs/view/senior-backend-engineer-java-at-accompany-health-4484675648/",
+                     "postedDate":  "6 days ago",
+                     "fit":  100,
+                     "fitReason":  "LinkedIn public India discovery match from India Remote Platform Engineer; verify JD, company, experience, and salary before applying",
+                     "keywords":  [
+                                      "backend engineer",
+                                      "platform engineer",
+                                      "java"
+                                  ],
+                     "applyType":  "External Apply",
+                     "classificationConfidence":  "Discovery",
+                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
+                     "azureScore":  45,
+                     "databricksScore":  45,
+                     "modelingScore":  55
+                 },
+                 {
+                     "id":  "linkedin:4484325467",
+                     "company":  " Norwin Technologies ",
+                     "role":  "Senior Backend Engineer (Java)",
+                     "location":  "Bengaluru, Karnataka, India",
+                     "link":  "https://www.linkedin.com/jobs/view/senior-backend-engineer-java-at-norwin-technologies-4484325467/",
+                     "postedDate":  "6 days ago",
+                     "fit":  100,
+                     "fitReason":  "LinkedIn public India discovery match from India Remote Backend Developer; verify JD, company, experience, and salary before applying",
+                     "keywords":  [
+                                      "backend engineer",
+                                      "backend developer",
+                                      "java"
+                                  ],
+                     "applyType":  "External Apply",
+                     "classificationConfidence":  "Discovery",
+                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
+                     "azureScore":  45,
+                     "databricksScore":  45,
+                     "modelingScore":  55
+                 },
+                 {
+                     "id":  "linkedin:4484640270",
+                     "company":  " DeepIntent ",
+                     "role":  "Senior Software Engineer - Backend",
+                     "location":  "Pune Division, Maharashtra, India",
+                     "link":  "https://www.linkedin.com/jobs/view/senior-software-engineer-backend-at-deepintent-4484640270/",
+                     "postedDate":  "2 days ago",
+                     "fit":  100,
+                     "fitReason":  "LinkedIn public India discovery match from India Remote Java Backend; verify JD, company, experience, and salary before applying",
+                     "keywords":  [
+                                      "backend engineer",
+                                      "java"
+                                  ],
+                     "applyType":  "External Apply",
+                     "classificationConfidence":  "Discovery",
+                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
+                     "azureScore":  45,
+                     "databricksScore":  45,
+                     "modelingScore":  55
+                 },
+                 {
+                     "id":  "linkedin:4486066411",
+                     "company":  " Rempact ",
+                     "role":  "Lead Backend Engineer",
+                     "location":  "Delhi, Delhi, India",
+                     "link":  "https://www.linkedin.com/jobs/view/lead-backend-engineer-at-rempact-4486066411/",
+                     "postedDate":  "6 days ago",
+                     "fit":  100,
+                     "fitReason":  "LinkedIn public India discovery match from India Remote Platform Engineer; verify JD, company, experience, and salary before applying",
+                     "keywords":  [
+                                      "backend engineer",
+                                      "platform engineer"
+                                  ],
+                     "applyType":  "External Apply",
+                     "classificationConfidence":  "Discovery",
+                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
+                     "azureScore":  45,
+                     "databricksScore":  45,
+                     "modelingScore":  55
+                 },
+                 {
+                     "id":  "linkedin:4487703704",
+                     "company":  " Guidewire Software ",
+                     "role":  "Software Engineer II (Java, backend)",
+                     "location":  "Bengaluru, Karnataka, India",
+                     "link":  "https://www.linkedin.com/jobs/view/software-engineer-ii-java-backend-at-guidewire-software-4487703704/",
+                     "postedDate":  "17 hours ago",
+                     "fit":  100,
+                     "fitReason":  "LinkedIn public India discovery match from India Remote Java Backend; verify JD, company, experience, and salary before applying",
+                     "keywords":  [
+                                      "backend engineer",
+                                      "java"
+                                  ],
+                     "applyType":  "External Apply",
+                     "classificationConfidence":  "Discovery",
+                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
+                     "azureScore":  45,
+                     "databricksScore":  45,
+                     "modelingScore":  55
+                 },
+                 {
+                     "id":  "linkedin:4487289914",
+                     "company":  " CGI ",
+                     "role":  "Java Backend developer Lead",
+                     "location":  "Hyderabad, Telangana, India",
+                     "link":  "https://www.linkedin.com/jobs/view/java-backend-developer-lead-at-cgi-4487289914/",
+                     "postedDate":  "5 days ago",
+                     "fit":  100,
+                     "fitReason":  "LinkedIn public India discovery match from Hyderabad Java Backend; verify JD, company, experience, and salary before applying",
+                     "keywords":  [
+                                      "backend engineer",
+                                      "backend developer",
+                                      "java"
+                                  ],
+                     "applyType":  "External Apply",
+                     "classificationConfidence":  "Discovery",
+                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
+                     "azureScore":  45,
+                     "databricksScore":  45,
+                     "modelingScore":  55
+                 },
+                 {
+                     "id":  "linkedin:4484633394",
+                     "company":  " SAP ",
+                     "role":  "Senior Backend Software Engineer – Java",
+                     "location":  "Bengaluru, Karnataka, India",
+                     "link":  "https://www.linkedin.com/jobs/view/senior-backend-software-engineer-%E2%80%93-java-at-sap-4484633394/",
+                     "postedDate":  "6 days ago",
+                     "fit":  100,
+                     "fitReason":  "LinkedIn public India discovery match from Bengaluru Java Backend; verify JD, company, experience, and salary before applying",
+                     "keywords":  [
+                                      "backend engineer",
+                                      "backend software engineer",
+                                      "java"
+                                  ],
+                     "applyType":  "External Apply",
+                     "classificationConfidence":  "Discovery",
+                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
+                     "azureScore":  45,
+                     "databricksScore":  45,
+                     "modelingScore":  55
+                 },
+                 {
+                     "id":  "linkedin:4485472093",
+                     "company":  " Jobgether ",
+                     "role":  "Sr. Software Engineer - Backend Engineer",
+                     "location":  "India",
+                     "link":  "https://www.linkedin.com/jobs/view/sr-software-engineer-backend-engineer-at-jobgether-4485472093/",
                      "postedDate":  "6 days ago",
                      "fit":  100,
                      "fitReason":  "LinkedIn public India discovery match from India Remote Platform Engineer; verify JD, company, experience, and salary before applying",
@@ -132,54 +275,12 @@
                      "modelingScore":  55
                  },
                  {
-                     "id":  "linkedin:4486476852",
-                     "company":  " Mactores ",
-                     "role":  "Mactores - Senior Java Engineer - Application \u0026amp; Database Modernization",
-                     "location":  "Itanagar, Arunachal Pradesh, India",
-                     "link":  "https://www.linkedin.com/jobs/view/mactores-senior-java-engineer-application-amp-database-modernization-at-mactores-4486476852/",
+                     "id":  "linkedin:4411192816",
+                     "company":  " Transaction Network Services (TNS) ",
+                     "role":  "MTS / SMTS Backend Java Developer",
+                     "location":  "Noida, Uttar Pradesh, India",
+                     "link":  "https://www.linkedin.com/jobs/view/mts-smts-backend-java-developer-at-transaction-network-services-tns-4411192816/",
                      "postedDate":  "6 days ago",
-                     "fit":  100,
-                     "fitReason":  "LinkedIn public India discovery match from India Remote Java Backend; verify JD, company, experience, and salary before applying",
-                     "keywords":  [
-                                      "backend engineer",
-                                      "java engineer",
-                                      "java"
-                                  ],
-                     "applyType":  "External Apply",
-                     "classificationConfidence":  "Discovery",
-                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
-                     "azureScore":  45,
-                     "databricksScore":  45,
-                     "modelingScore":  55
-                 },
-                 {
-                     "id":  "linkedin:4484325467",
-                     "company":  " Norwin Technologies ",
-                     "role":  "Senior Backend Engineer (Java)",
-                     "location":  "Bengaluru, Karnataka, India",
-                     "link":  "https://www.linkedin.com/jobs/view/senior-backend-engineer-java-at-norwin-technologies-4484325467/",
-                     "postedDate":  "6 days ago",
-                     "fit":  100,
-                     "fitReason":  "LinkedIn public India discovery match from India Remote Backend Developer; verify JD, company, experience, and salary before applying",
-                     "keywords":  [
-                                      "backend engineer",
-                                      "backend developer",
-                                      "java"
-                                  ],
-                     "applyType":  "External Apply",
-                     "classificationConfidence":  "Discovery",
-                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
-                     "azureScore":  45,
-                     "databricksScore":  45,
-                     "modelingScore":  55
-                 },
-                 {
-                     "id":  "linkedin:4484640270",
-                     "company":  " DeepIntent ",
-                     "role":  "Senior Software Engineer - Backend",
-                     "location":  "Pune Division, Maharashtra, India",
-                     "link":  "https://www.linkedin.com/jobs/view/senior-software-engineer-backend-at-deepintent-4484640270/",
-                     "postedDate":  "2 days ago",
                      "fit":  100,
                      "fitReason":  "LinkedIn public India discovery match from India Remote Java Backend; verify JD, company, experience, and salary before applying",
                      "keywords":  [
@@ -215,6 +316,27 @@
                      "modelingScore":  55
                  },
                  {
+                     "id":  "linkedin:4486476852",
+                     "company":  " Mactores ",
+                     "role":  "Mactores - Senior Java Engineer - Application \u0026amp; Database Modernization",
+                     "location":  "Itanagar, Arunachal Pradesh, India",
+                     "link":  "https://www.linkedin.com/jobs/view/mactores-senior-java-engineer-application-amp-database-modernization-at-mactores-4486476852/",
+                     "postedDate":  "6 days ago",
+                     "fit":  100,
+                     "fitReason":  "LinkedIn public India discovery match from India Remote Java Backend; verify JD, company, experience, and salary before applying",
+                     "keywords":  [
+                                      "backend engineer",
+                                      "java engineer",
+                                      "java"
+                                  ],
+                     "applyType":  "External Apply",
+                     "classificationConfidence":  "Discovery",
+                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
+                     "azureScore":  45,
+                     "databricksScore":  45,
+                     "modelingScore":  55
+                 },
+                 {
                      "id":  "linkedin:4487600724",
                      "company":  " Persistent Systems ",
                      "role":  "Senior Java Backend Developer",
@@ -235,11 +357,11 @@
                      "modelingScore":  55
                  },
                  {
-                     "id":  "linkedin:4485472093",
-                     "company":  " Jobgether ",
-                     "role":  "Sr. Software Engineer - Backend Engineer",
-                     "location":  "India",
-                     "link":  "https://www.linkedin.com/jobs/view/sr-software-engineer-backend-engineer-at-jobgether-4485472093/",
+                     "id":  "linkedin:4485306715",
+                     "company":  " PayPay India ",
+                     "role":  "Backend Engineer",
+                     "location":  "Gurugram, Haryana, India",
+                     "link":  "https://www.linkedin.com/jobs/view/backend-engineer-at-paypay-india-4485306715/",
                      "postedDate":  "6 days ago",
                      "fit":  100,
                      "fitReason":  "LinkedIn public India discovery match from India Remote Platform Engineer; verify JD, company, experience, and salary before applying",
@@ -255,12 +377,53 @@
                      "modelingScore":  55
                  },
                  {
-                     "id":  "linkedin:4411192816",
-                     "company":  " Transaction Network Services (TNS) ",
-                     "role":  "MTS / SMTS Backend Java Developer",
-                     "location":  "Noida, Uttar Pradesh, India",
-                     "link":  "https://www.linkedin.com/jobs/view/mts-smts-backend-java-developer-at-transaction-network-services-tns-4411192816/",
+                     "id":  "linkedin:4488834644",
+                     "company":  " SalesForce-ad ",
+                     "role":  "Software Engineering, SMTS/MTS (Backend + Kubernetes/Docker/Helm)",
+                     "location":  "Hyderabad, Telangana, India",
+                     "link":  "https://www.linkedin.com/jobs/view/software-engineering-smts-mts-backend-%2B-kubernetes-docker-helm-at-salesforce-ad-4488834644/",
+                     "postedDate":  "40 minutes ago",
+                     "fit":  100,
+                     "fitReason":  "LinkedIn public India discovery match from India Remote Platform Engineer; verify JD, company, experience, and salary before applying",
+                     "keywords":  [
+                                      "platform engineer",
+                                      "docker",
+                                      "kubernetes"
+                                  ],
+                     "applyType":  "External Apply",
+                     "classificationConfidence":  "Discovery",
+                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
+                     "azureScore":  45,
+                     "databricksScore":  45,
+                     "modelingScore":  55
+                 },
+                 {
+                     "id":  "linkedin:4486328131",
+                     "company":  " Bilvantis Technologies ",
+                     "role":  "J2EE Backend Development – Lead Programmer Analyst (Exp: 5 Yrs to 7 Yrs)",
+                     "location":  "Hyderabad, Telangana, India",
+                     "link":  "https://www.linkedin.com/jobs/view/j2ee-backend-development-%E2%80%93-lead-programmer-analyst-exp-5-yrs-to-7-yrs-at-bilvantis-technologies-4486328131/",
                      "postedDate":  "6 days ago",
+                     "fit":  99,
+                     "fitReason":  "LinkedIn public India discovery match from Hyderabad Java Backend; verify JD, company, experience, and salary before applying",
+                     "keywords":  [
+                                      "backend engineer",
+                                      "java"
+                                  ],
+                     "applyType":  "External Apply",
+                     "classificationConfidence":  "Discovery",
+                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
+                     "azureScore":  45,
+                     "databricksScore":  45,
+                     "modelingScore":  55
+                 },
+                 {
+                     "id":  "linkedin:4480352193",
+                     "company":  " DBS Bank ",
+                     "role":  "Associate/Senior Associate, Application Developer(Java Backend), Consumer Banking Group Technology.",
+                     "location":  "Greater Hyderabad Area",
+                     "link":  "https://www.linkedin.com/jobs/view/associate-senior-associate-application-developer-java-backend-consumer-banking-group-technology-at-dbs-bank-4480352193/",
+                     "postedDate":  "4 days ago",
                      "fit":  100,
                      "fitReason":  "LinkedIn public India discovery match from India Remote Java Backend; verify JD, company, experience, and salary before applying",
                      "keywords":  [
@@ -275,17 +438,63 @@
                      "modelingScore":  55
                  },
                  {
-                     "id":  "linkedin:4486616555",
-                     "company":  " Thermo Fisher Scientific ",
-                     "role":  "Lead Java Engineer",
-                     "location":  "Bengaluru East, Karnataka, India",
-                     "link":  "https://www.linkedin.com/jobs/view/lead-java-engineer-at-thermo-fisher-scientific-4486616555/",
-                     "postedDate":  "1 day ago",
+                     "id":  "linkedin:4489439093",
+                     "company":  " EduRun Group ",
+                     "role":  "Java Backend Developer",
+                     "location":  "Hyderabad, Telangana, India",
+                     "link":  "https://www.linkedin.com/jobs/view/java-backend-developer-at-edurun-group-4489439093/",
+                     "postedDate":  "4 hours ago",
                      "fit":  100,
-                     "fitReason":  "LinkedIn public India discovery match from Bengaluru Java Backend; verify JD, company, experience, and salary before applying",
+                     "fitReason":  "LinkedIn public India discovery match from Hyderabad Java Backend; verify JD, company, experience, and salary before applying",
+                     "keywords":  [
+                                      "backend engineer",
+                                      "backend developer",
+                                      "java"
+                                  ],
+                     "applyType":  "External Apply",
+                     "classificationConfidence":  "Discovery",
+                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
+                     "azureScore":  45,
+                     "databricksScore":  45,
+                     "modelingScore":  55
+                 },
+                 {
+                     "id":  "linkedin:4487470339",
+                     "company":  " Remote_WFH_INDIA ",
+                     "role":  "Java Engineer | Spring Boot | Netflix DGS | AWS Aurora MySQL | MongoDB Atlas - WFH/Remote - India",
+                     "location":  "Hyderabad, Telangana, India",
+                     "link":  "https://www.linkedin.com/jobs/view/java-engineer-spring-boot-netflix-dgs-aws-aurora-mysql-mongodb-atlas-wfh-remote-india-at-remote-wfh-india-4487470339/",
+                     "postedDate":  "2 hours ago",
+                     "fit":  100,
+                     "fitReason":  "LinkedIn public India discovery match from Hyderabad Java Backend; verify JD, company, experience, and salary before applying",
                      "keywords":  [
                                       "backend engineer",
                                       "java engineer",
+                                      "java",
+                                      "spring boot",
+                                      "sql",
+                                      "mysql",
+                                      "mongodb",
+                                      "aws"
+                                  ],
+                     "applyType":  "External Apply",
+                     "classificationConfidence":  "Discovery",
+                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
+                     "azureScore":  45,
+                     "databricksScore":  45,
+                     "modelingScore":  55
+                 },
+                 {
+                     "id":  "linkedin:4487474136",
+                     "company":  " Ultimutt™ ",
+                     "role":  "Backend Engineer (SDE1/SDE2)",
+                     "location":  "Gurgaon, Haryana, India",
+                     "link":  "https://www.linkedin.com/jobs/view/backend-engineer-sde1-sde2-at-ultimutt%E2%84%A2-4487474136/",
+                     "postedDate":  "2 hours ago",
+                     "fit":  99,
+                     "fitReason":  "LinkedIn public India discovery match from India Remote Java Backend; verify JD, company, experience, and salary before applying",
+                     "keywords":  [
+                                      "backend engineer",
                                       "java"
                                   ],
                      "applyType":  "External Apply",
@@ -296,16 +505,17 @@
                      "modelingScore":  55
                  },
                  {
-                     "id":  "linkedin:4487703704",
-                     "company":  " Guidewire Software ",
-                     "role":  "Software Engineer II (Java, backend)",
-                     "location":  "Bengaluru, Karnataka, India",
-                     "link":  "https://www.linkedin.com/jobs/view/software-engineer-ii-java-backend-at-guidewire-software-4487703704/",
-                     "postedDate":  "17 hours ago",
+                     "id":  "linkedin:4474685069",
+                     "company":  " Nationwide ",
+                     "role":  "Specialist - Software Engineer (API Developer / Platform Engineering)",
+                     "location":  "Hyderabad, Telangana, India",
+                     "link":  "https://www.linkedin.com/jobs/view/specialist-software-engineer-api-developer-platform-engineering-at-nationwide-4474685069/",
+                     "postedDate":  "5 days ago",
                      "fit":  100,
-                     "fitReason":  "LinkedIn public India discovery match from India Remote Java Backend; verify JD, company, experience, and salary before applying",
+                     "fitReason":  "LinkedIn public India discovery match from Hyderabad Java Backend; verify JD, company, experience, and salary before applying",
                      "keywords":  [
                                       "backend engineer",
+                                      "platform engineer",
                                       "java"
                                   ],
                      "applyType":  "External Apply",
@@ -336,157 +546,39 @@
                      "modelingScore":  55
                  },
                  {
-                     "id":  "linkedin:4474685069",
-                     "company":  " Nationwide ",
-                     "role":  "Specialist - Software Engineer (API Developer / Platform Engineering)",
-                     "location":  "Hyderabad, Telangana, India",
-                     "link":  "https://www.linkedin.com/jobs/view/specialist-software-engineer-api-developer-platform-engineering-at-nationwide-4474685069/",
-                     "postedDate":  "4 days ago",
+                     "id":  "linkedin:4487162190",
+                     "company":  " Duruper ",
+                     "role":  "Backend Developer",
+                     "location":  "Bengaluru, Karnataka, India",
+                     "link":  "https://www.linkedin.com/jobs/view/backend-developer-at-duruper-4487162190/",
+                     "postedDate":  "1 hour ago",
                      "fit":  100,
-                     "fitReason":  "LinkedIn public India discovery match from Hyderabad Java Backend; verify JD, company, experience, and salary before applying",
+                     "fitReason":  "LinkedIn public India discovery match from Bengaluru Java Backend; verify JD, company, experience, and salary before applying",
+                     "keywords":  [
+                                      "backend engineer",
+                                      "backend developer",
+                                      "java"
+                                  ],
+                     "applyType":  "External Apply",
+                     "classificationConfidence":  "Discovery",
+                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
+                     "azureScore":  45,
+                     "databricksScore":  45,
+                     "modelingScore":  55
+                 },
+                 {
+                     "id":  "linkedin:4469009823",
+                     "company":  " SAP ",
+                     "role":  "Platform Engineer - Java Developer \u0026 Elastic Search",
+                     "location":  "Bengaluru, Karnataka, India",
+                     "link":  "https://www.linkedin.com/jobs/view/platform-engineer-java-developer-elastic-search-at-sap-4469009823/",
+                     "postedDate":  "6 days ago",
+                     "fit":  100,
+                     "fitReason":  "LinkedIn public India discovery match from Bengaluru Java Backend; verify JD, company, experience, and salary before applying",
                      "keywords":  [
                                       "backend engineer",
                                       "platform engineer",
                                       "java"
-                                  ],
-                     "applyType":  "External Apply",
-                     "classificationConfidence":  "Discovery",
-                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
-                     "azureScore":  45,
-                     "databricksScore":  45,
-                     "modelingScore":  55
-                 },
-                 {
-                     "id":  "linkedin:4480352193",
-                     "company":  " DBS Bank ",
-                     "role":  "Associate/Senior Associate, Application Developer(Java Backend), Consumer Banking Group Technology.",
-                     "location":  "Greater Hyderabad Area",
-                     "link":  "https://www.linkedin.com/jobs/view/associate-senior-associate-application-developer-java-backend-consumer-banking-group-technology-at-dbs-bank-4480352193/",
-                     "postedDate":  "3 days ago",
-                     "fit":  100,
-                     "fitReason":  "LinkedIn public India discovery match from India Remote Java Backend; verify JD, company, experience, and salary before applying",
-                     "keywords":  [
-                                      "backend engineer",
-                                      "java"
-                                  ],
-                     "applyType":  "External Apply",
-                     "classificationConfidence":  "Discovery",
-                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
-                     "azureScore":  45,
-                     "databricksScore":  45,
-                     "modelingScore":  55
-                 },
-                 {
-                     "id":  "linkedin:4486328131",
-                     "company":  " Bilvantis Technologies ",
-                     "role":  "J2EE Backend Development – Lead Programmer Analyst (Exp: 5 Yrs to 7 Yrs)",
-                     "location":  "Hyderabad, Telangana, India",
-                     "link":  "https://www.linkedin.com/jobs/view/j2ee-backend-development-%E2%80%93-lead-programmer-analyst-exp-5-yrs-to-7-yrs-at-bilvantis-technologies-4486328131/",
-                     "postedDate":  "6 days ago",
-                     "fit":  99,
-                     "fitReason":  "LinkedIn public India discovery match from Hyderabad Java Backend; verify JD, company, experience, and salary before applying",
-                     "keywords":  [
-                                      "backend engineer",
-                                      "java"
-                                  ],
-                     "applyType":  "External Apply",
-                     "classificationConfidence":  "Discovery",
-                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
-                     "azureScore":  45,
-                     "databricksScore":  45,
-                     "modelingScore":  55
-                 },
-                 {
-                     "id":  "linkedin:4485898634",
-                     "company":  " Persistent Systems ",
-                     "role":  "Senior Java Backend Developer",
-                     "location":  "Pune City, Maharashtra, India",
-                     "link":  "https://www.linkedin.com/jobs/view/senior-java-backend-developer-at-persistent-systems-4485898634/",
-                     "postedDate":  "3 days ago",
-                     "fit":  100,
-                     "fitReason":  "LinkedIn public India discovery match from India Remote Backend Developer; verify JD, company, experience, and salary before applying",
-                     "keywords":  [
-                                      "backend developer",
-                                      "java"
-                                  ],
-                     "applyType":  "External Apply",
-                     "classificationConfidence":  "Discovery",
-                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
-                     "azureScore":  45,
-                     "databricksScore":  45,
-                     "modelingScore":  55
-                 },
-                 {
-                     "id":  "linkedin:4486947991",
-                     "company":  " Talentien ",
-                     "role":  "Java Backend Developer",
-                     "location":  "Kochi, Kerala, India",
-                     "link":  "https://www.linkedin.com/jobs/view/java-backend-developer-at-talentien-4486947991/",
-                     "postedDate":  "3 days ago",
-                     "fit":  100,
-                     "fitReason":  "LinkedIn public India discovery match from India Remote Backend Developer; verify JD, company, experience, and salary before applying",
-                     "keywords":  [
-                                      "backend developer",
-                                      "java"
-                                  ],
-                     "applyType":  "External Apply",
-                     "classificationConfidence":  "Discovery",
-                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
-                     "azureScore":  45,
-                     "databricksScore":  45,
-                     "modelingScore":  55
-                 },
-                 {
-                     "id":  "linkedin:4484633532",
-                     "company":  " DeepIntent ",
-                     "role":  "Staff Software Engineer - Backend",
-                     "location":  "Pune Division, Maharashtra, India",
-                     "link":  "https://www.linkedin.com/jobs/view/staff-software-engineer-backend-at-deepintent-4484633532/",
-                     "postedDate":  "4 days ago",
-                     "fit":  62,
-                     "fitReason":  "LinkedIn public India discovery match from India Remote Platform Engineer; verify JD, company, experience, and salary before applying",
-                     "keywords":  [
-                                      "platform engineer"
-                                  ],
-                     "applyType":  "External Apply",
-                     "classificationConfidence":  "Discovery",
-                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
-                     "azureScore":  45,
-                     "databricksScore":  45,
-                     "modelingScore":  55
-                 },
-                 {
-                     "id":  "linkedin:4487308971",
-                     "company":  " Quest Global ",
-                     "role":  "Lead Backend Developer - Java Spring Boot",
-                     "location":  "Bengaluru, Karnataka, India",
-                     "link":  "https://www.linkedin.com/jobs/view/lead-backend-developer-java-spring-boot-at-quest-global-4487308971/",
-                     "postedDate":  "3 days ago",
-                     "fit":  100,
-                     "fitReason":  "LinkedIn public India discovery match from India Remote Backend Developer; verify JD, company, experience, and salary before applying",
-                     "keywords":  [
-                                      "backend developer",
-                                      "java",
-                                      "spring boot"
-                                  ],
-                     "applyType":  "External Apply",
-                     "classificationConfidence":  "Discovery",
-                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
-                     "azureScore":  45,
-                     "databricksScore":  45,
-                     "modelingScore":  55
-                 },
-                 {
-                     "id":  "linkedin:4486768061",
-                     "company":  " Infoya ",
-                     "role":  "Backend Developer",
-                     "location":  "Chennai, Tamil Nadu, India",
-                     "link":  "https://www.linkedin.com/jobs/view/backend-developer-at-infoya-4486768061/",
-                     "postedDate":  "4 days ago",
-                     "fit":  90,
-                     "fitReason":  "LinkedIn public India discovery match from India Remote Backend Developer; verify JD, company, experience, and salary before applying",
-                     "keywords":  [
-                                      "backend developer"
                                   ],
                      "applyType":  "External Apply",
                      "classificationConfidence":  "Discovery",
@@ -518,59 +610,19 @@
                      "modelingScore":  55
                  },
                  {
-                     "id":  "linkedin:4469009823",
-                     "company":  " SAP ",
-                     "role":  "Platform Engineer - Java Developer \u0026 Elastic Search",
+                     "id":  "linkedin:4486328909",
+                     "company":  " Quest Global ",
+                     "role":  "Java AWS Backend Developer (3–6 Years)",
                      "location":  "Bengaluru, Karnataka, India",
-                     "link":  "https://www.linkedin.com/jobs/view/platform-engineer-java-developer-elastic-search-at-sap-4469009823/",
+                     "link":  "https://www.linkedin.com/jobs/view/java-aws-backend-developer-3%E2%80%936-years-at-quest-global-4486328909/",
                      "postedDate":  "6 days ago",
-                     "fit":  100,
-                     "fitReason":  "LinkedIn public India discovery match from Bengaluru Java Backend; verify JD, company, experience, and salary before applying",
-                     "keywords":  [
-                                      "backend engineer",
-                                      "platform engineer",
-                                      "java"
-                                  ],
-                     "applyType":  "External Apply",
-                     "classificationConfidence":  "Discovery",
-                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
-                     "azureScore":  45,
-                     "databricksScore":  45,
-                     "modelingScore":  55
-                 },
-                 {
-                     "id":  "linkedin:4478477143",
-                     "company":  " Eltropy ",
-                     "role":  "Senior Backend Engineer",
-                     "location":  "Bengaluru, Karnataka, India",
-                     "link":  "https://www.linkedin.com/jobs/view/senior-backend-engineer-at-eltropy-4478477143/",
-                     "postedDate":  "4 days ago",
                      "fit":  100,
                      "fitReason":  "LinkedIn public India discovery match from India Remote Java Backend; verify JD, company, experience, and salary before applying",
                      "keywords":  [
                                       "backend engineer",
-                                      "java"
-                                  ],
-                     "applyType":  "External Apply",
-                     "classificationConfidence":  "Discovery",
-                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
-                     "azureScore":  45,
-                     "databricksScore":  45,
-                     "modelingScore":  55
-                 },
-                 {
-                     "id":  "linkedin:4484633394",
-                     "company":  " SAP ",
-                     "role":  "Senior Backend Software Engineer – Java",
-                     "location":  "Bengaluru, Karnataka, India",
-                     "link":  "https://www.linkedin.com/jobs/view/senior-backend-software-engineer-%E2%80%93-java-at-sap-4484633394/",
-                     "postedDate":  "6 days ago",
-                     "fit":  100,
-                     "fitReason":  "LinkedIn public India discovery match from Bengaluru Java Backend; verify JD, company, experience, and salary before applying",
-                     "keywords":  [
-                                      "backend engineer",
-                                      "backend software engineer",
-                                      "java"
+                                      "backend developer",
+                                      "java",
+                                      "aws"
                                   ],
                      "applyType":  "External Apply",
                      "classificationConfidence":  "Discovery",
@@ -606,54 +658,12 @@
                      "role":  "Java Backend Developer",
                      "location":  "Bengaluru, Karnataka, India",
                      "link":  "https://www.linkedin.com/jobs/view/java-backend-developer-at-tekwissen-india-4484939893/",
-                     "postedDate":  "11 hours ago",
+                     "postedDate":  "19 hours ago",
                      "fit":  100,
                      "fitReason":  "LinkedIn public India discovery match from Bengaluru Java Backend; verify JD, company, experience, and salary before applying",
                      "keywords":  [
                                       "backend engineer",
                                       "backend developer",
-                                      "java"
-                                  ],
-                     "applyType":  "External Apply",
-                     "classificationConfidence":  "Discovery",
-                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
-                     "azureScore":  45,
-                     "databricksScore":  45,
-                     "modelingScore":  55
-                 },
-                 {
-                     "id":  "linkedin:4487162190",
-                     "company":  " Duruper ",
-                     "role":  "Backend Developer",
-                     "location":  "Bengaluru, Karnataka, India",
-                     "link":  "https://www.linkedin.com/jobs/view/backend-developer-at-duruper-4487162190/",
-                     "postedDate":  "16 hours ago",
-                     "fit":  100,
-                     "fitReason":  "LinkedIn public India discovery match from Bengaluru Java Backend; verify JD, company, experience, and salary before applying",
-                     "keywords":  [
-                                      "backend engineer",
-                                      "backend developer",
-                                      "java"
-                                  ],
-                     "applyType":  "External Apply",
-                     "classificationConfidence":  "Discovery",
-                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
-                     "azureScore":  45,
-                     "databricksScore":  45,
-                     "modelingScore":  55
-                 },
-                 {
-                     "id":  "linkedin:4486685758",
-                     "company":  " Thermo Fisher Scientific ",
-                     "role":  "Lead Java Engineer",
-                     "location":  "Bengaluru East, Karnataka, India",
-                     "link":  "https://www.linkedin.com/jobs/view/lead-java-engineer-at-thermo-fisher-scientific-4486685758/",
-                     "postedDate":  "1 day ago",
-                     "fit":  100,
-                     "fitReason":  "LinkedIn public India discovery match from Bengaluru Java Backend; verify JD, company, experience, and salary before applying",
-                     "keywords":  [
-                                      "backend engineer",
-                                      "java engineer",
                                       "java"
                                   ],
                      "applyType":  "External Apply",
@@ -669,7 +679,7 @@
                      "role":  "Java Backend Developer + Kafka +GCP",
                      "location":  "Bengaluru, Karnataka, India",
                      "link":  "https://www.linkedin.com/jobs/view/java-backend-developer-%2B-kafka-%2Bgcp-at-capco-4480361756/",
-                     "postedDate":  "2 days ago",
+                     "postedDate":  "3 days ago",
                      "fit":  100,
                      "fitReason":  "LinkedIn public India discovery match from Bengaluru Java Backend; verify JD, company, experience, and salary before applying",
                      "keywords":  [
@@ -686,36 +696,17 @@
                      "modelingScore":  55
                  },
                  {
-                     "id":  "linkedin:4486833697",
-                     "company":  " Global Payments Inc. ",
-                     "role":  "Software Engineer(Java Backend Technologies)",
-                     "location":  "Indore, Madhya Pradesh, India",
-                     "link":  "https://www.linkedin.com/jobs/view/software-engineer-java-backend-technologies-at-global-payments-inc-4486833697/",
-                     "postedDate":  "6 days ago",
-                     "fit":  99,
-                     "fitReason":  "LinkedIn public India discovery match from India Remote Java Backend; verify JD, company, experience, and salary before applying",
-                     "keywords":  [
-                                      "backend engineer",
-                                      "java"
-                                  ],
-                     "applyType":  "External Apply",
-                     "classificationConfidence":  "Discovery",
-                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
-                     "azureScore":  45,
-                     "databricksScore":  45,
-                     "modelingScore":  55
-                 },
-                 {
-                     "id":  "linkedin:4487291404",
-                     "company":  " PUMA Group ",
-                     "role":  "Software Engineer II (Backend) - Consumer Intelligence \u0026 Engagement",
-                     "location":  "Pune Division, Maharashtra, India",
-                     "link":  "https://www.linkedin.com/jobs/view/software-engineer-ii-backend-consumer-intelligence-engagement-at-puma-group-4487291404/",
-                     "postedDate":  "5 days ago",
+                     "id":  "linkedin:4486685758",
+                     "company":  " Thermo Fisher Scientific ",
+                     "role":  "Lead Java Engineer",
+                     "location":  "Bengaluru East, Karnataka, India",
+                     "link":  "https://www.linkedin.com/jobs/view/lead-java-engineer-at-thermo-fisher-scientific-4486685758/",
+                     "postedDate":  "2 days ago",
                      "fit":  100,
-                     "fitReason":  "LinkedIn public India discovery match from India Remote Java Backend; verify JD, company, experience, and salary before applying",
+                     "fitReason":  "LinkedIn public India discovery match from Bengaluru Java Backend; verify JD, company, experience, and salary before applying",
                      "keywords":  [
                                       "backend engineer",
+                                      "java engineer",
                                       "java"
                                   ],
                      "applyType":  "External Apply",
@@ -746,12 +737,52 @@
                      "modelingScore":  55
                  },
                  {
+                     "id":  "linkedin:4486979636",
+                     "company":  " TripJack ",
+                     "role":  "SDE 1 - Backend (Java)",
+                     "location":  "Delhi, Delhi, India",
+                     "link":  "https://www.linkedin.com/jobs/view/sde-1-backend-java-at-tripjack-4486979636/",
+                     "postedDate":  "3 days ago",
+                     "fit":  99,
+                     "fitReason":  "LinkedIn public India discovery match from India Remote Java Backend; verify JD, company, experience, and salary before applying",
+                     "keywords":  [
+                                      "backend engineer",
+                                      "java"
+                                  ],
+                     "applyType":  "External Apply",
+                     "classificationConfidence":  "Discovery",
+                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
+                     "azureScore":  45,
+                     "databricksScore":  45,
+                     "modelingScore":  55
+                 },
+                 {
+                     "id":  "linkedin:4478477143",
+                     "company":  " Eltropy ",
+                     "role":  "Senior Backend Engineer",
+                     "location":  "Bengaluru, Karnataka, India",
+                     "link":  "https://www.linkedin.com/jobs/view/senior-backend-engineer-at-eltropy-4478477143/",
+                     "postedDate":  "4 days ago",
+                     "fit":  100,
+                     "fitReason":  "LinkedIn public India discovery match from India Remote Java Backend; verify JD, company, experience, and salary before applying",
+                     "keywords":  [
+                                      "backend engineer",
+                                      "java"
+                                  ],
+                     "applyType":  "External Apply",
+                     "classificationConfidence":  "Discovery",
+                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
+                     "azureScore":  45,
+                     "databricksScore":  45,
+                     "modelingScore":  55
+                 },
+                 {
                      "id":  "linkedin:4486568979",
                      "company":  " Quest Global ",
                      "role":  "Java AWS Backend Developer (3–6 Years)",
                      "location":  "Thiruvananthapuram, Kerala, India",
                      "link":  "https://www.linkedin.com/jobs/view/java-aws-backend-developer-3%E2%80%936-years-at-quest-global-4486568979/",
-                     "postedDate":  "4 days ago",
+                     "postedDate":  "5 days ago",
                      "fit":  100,
                      "fitReason":  "LinkedIn public India discovery match from India Remote Java Backend; verify JD, company, experience, and salary before applying",
                      "keywords":  [
@@ -790,6 +821,107 @@
                      "modelingScore":  55
                  },
                  {
+                     "id":  "linkedin:4488313572",
+                     "company":  " Pallav Technologies ",
+                     "role":  "Backend Engineer (Java)",
+                     "location":  "Gurugram, Haryana, India",
+                     "link":  "https://www.linkedin.com/jobs/view/backend-engineer-java-at-pallav-technologies-4488313572/",
+                     "postedDate":  "1 hour ago",
+                     "fit":  100,
+                     "fitReason":  "LinkedIn public India discovery match from India Remote Java Backend; verify JD, company, experience, and salary before applying",
+                     "keywords":  [
+                                      "backend engineer",
+                                      "java"
+                                  ],
+                     "applyType":  "External Apply",
+                     "classificationConfidence":  "Discovery",
+                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
+                     "azureScore":  45,
+                     "databricksScore":  45,
+                     "modelingScore":  55
+                 },
+                 {
+                     "id":  "linkedin:4487291404",
+                     "company":  " PUMA Group ",
+                     "role":  "Software Engineer II (Backend) - Consumer Intelligence \u0026 Engagement",
+                     "location":  "Pune Division, Maharashtra, India",
+                     "link":  "https://www.linkedin.com/jobs/view/software-engineer-ii-backend-consumer-intelligence-engagement-at-puma-group-4487291404/",
+                     "postedDate":  "5 days ago",
+                     "fit":  100,
+                     "fitReason":  "LinkedIn public India discovery match from India Remote Java Backend; verify JD, company, experience, and salary before applying",
+                     "keywords":  [
+                                      "backend engineer",
+                                      "java"
+                                  ],
+                     "applyType":  "External Apply",
+                     "classificationConfidence":  "Discovery",
+                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
+                     "azureScore":  45,
+                     "databricksScore":  45,
+                     "modelingScore":  55
+                 },
+                 {
+                     "id":  "linkedin:4487291368",
+                     "company":  " PUMA Group ",
+                     "role":  "Senior Software Engineer (Backend) - Consumer Intelligence \u0026 Engagement- Consumer Intelligence \u0026 Engagement",
+                     "location":  "Pune Division, Maharashtra, India",
+                     "link":  "https://www.linkedin.com/jobs/view/senior-software-engineer-backend-consumer-intelligence-engagement-consumer-intelligence-engagement-at-puma-group-4487291368/",
+                     "postedDate":  "5 days ago",
+                     "fit":  100,
+                     "fitReason":  "LinkedIn public India discovery match from India Remote Java Backend; verify JD, company, experience, and salary before applying",
+                     "keywords":  [
+                                      "backend engineer",
+                                      "java"
+                                  ],
+                     "applyType":  "External Apply",
+                     "classificationConfidence":  "Discovery",
+                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
+                     "azureScore":  45,
+                     "databricksScore":  45,
+                     "modelingScore":  55
+                 },
+                 {
+                     "id":  "linkedin:4487308971",
+                     "company":  " Quest Global ",
+                     "role":  "Lead Backend Developer - Java Spring Boot",
+                     "location":  "Bengaluru, Karnataka, India",
+                     "link":  "https://www.linkedin.com/jobs/view/lead-backend-developer-java-spring-boot-at-quest-global-4487308971/",
+                     "postedDate":  "3 days ago",
+                     "fit":  100,
+                     "fitReason":  "LinkedIn public India discovery match from India Remote Backend Developer; verify JD, company, experience, and salary before applying",
+                     "keywords":  [
+                                      "backend developer",
+                                      "java",
+                                      "spring boot"
+                                  ],
+                     "applyType":  "External Apply",
+                     "classificationConfidence":  "Discovery",
+                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
+                     "azureScore":  45,
+                     "databricksScore":  45,
+                     "modelingScore":  55
+                 },
+                 {
+                     "id":  "linkedin:4485898634",
+                     "company":  " Persistent Systems ",
+                     "role":  "Senior Java Backend Developer",
+                     "location":  "Pune City, Maharashtra, India",
+                     "link":  "https://www.linkedin.com/jobs/view/senior-java-backend-developer-at-persistent-systems-4485898634/",
+                     "postedDate":  "4 days ago",
+                     "fit":  100,
+                     "fitReason":  "LinkedIn public India discovery match from India Remote Backend Developer; verify JD, company, experience, and salary before applying",
+                     "keywords":  [
+                                      "backend developer",
+                                      "java"
+                                  ],
+                     "applyType":  "External Apply",
+                     "classificationConfidence":  "Discovery",
+                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
+                     "azureScore":  45,
+                     "databricksScore":  45,
+                     "modelingScore":  55
+                 },
+                 {
                      "id":  "linkedin:4440181615",
                      "company":  " Mastercard ",
                      "role":  "Software Engineer II (Backend Developer)",
@@ -811,17 +943,16 @@
                      "modelingScore":  55
                  },
                  {
-                     "id":  "linkedin:4461650311",
-                     "company":  " Priceline ",
-                     "role":  "Senior Software Engineer - Backend",
-                     "location":  "Mumbai, Maharashtra, India",
-                     "link":  "https://www.linkedin.com/jobs/view/senior-software-engineer-backend-at-priceline-4461650311/",
-                     "postedDate":  "3 days ago",
-                     "fit":  99,
-                     "fitReason":  "LinkedIn public India discovery match from India Remote Java Backend; verify JD, company, experience, and salary before applying",
+                     "id":  "linkedin:4486768061",
+                     "company":  " Infoya ",
+                     "role":  "Backend Developer",
+                     "location":  "Chennai, Tamil Nadu, India",
+                     "link":  "https://www.linkedin.com/jobs/view/backend-developer-at-infoya-4486768061/",
+                     "postedDate":  "5 days ago",
+                     "fit":  90,
+                     "fitReason":  "LinkedIn public India discovery match from India Remote Backend Developer; verify JD, company, experience, and salary before applying",
                      "keywords":  [
-                                      "backend engineer",
-                                      "java"
+                                      "backend developer"
                                   ],
                      "applyType":  "External Apply",
                      "classificationConfidence":  "Discovery",
@@ -831,57 +962,17 @@
                      "modelingScore":  55
                  },
                  {
-                     "id":  "linkedin:4486849147",
-                     "company":  " Global Payments Inc. ",
-                     "role":  "Software Engineer(Java Backend Technologies)",
-                     "location":  "Pune/Pimpri-Chinchwad Area",
-                     "link":  "https://www.linkedin.com/jobs/view/software-engineer-java-backend-technologies-at-global-payments-inc-4486849147/",
-                     "postedDate":  "6 days ago",
+                     "id":  "linkedin:4487454728",
+                     "company":  " Wafynet ",
+                     "role":  "Java Backend Developer",
+                     "location":  "Pune City, Maharashtra, India",
+                     "link":  "https://www.linkedin.com/jobs/view/java-backend-developer-at-wafynet-4487454728/",
+                     "postedDate":  "2 hours ago",
                      "fit":  100,
                      "fitReason":  "LinkedIn public India discovery match from India Remote Java Backend; verify JD, company, experience, and salary before applying",
                      "keywords":  [
                                       "backend engineer",
-                                      "java"
-                                  ],
-                     "applyType":  "External Apply",
-                     "classificationConfidence":  "Discovery",
-                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
-                     "azureScore":  45,
-                     "databricksScore":  45,
-                     "modelingScore":  55
-                 },
-                 {
-                     "id":  "linkedin:4486979636",
-                     "company":  " TripJack ",
-                     "role":  "SDE 1 - Backend (Java)",
-                     "location":  "Delhi, Delhi, India",
-                     "link":  "https://www.linkedin.com/jobs/view/sde-1-backend-java-at-tripjack-4486979636/",
-                     "postedDate":  "3 days ago",
-                     "fit":  99,
-                     "fitReason":  "LinkedIn public India discovery match from India Remote Java Backend; verify JD, company, experience, and salary before applying",
-                     "keywords":  [
-                                      "backend engineer",
-                                      "java"
-                                  ],
-                     "applyType":  "External Apply",
-                     "classificationConfidence":  "Discovery",
-                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
-                     "azureScore":  45,
-                     "databricksScore":  45,
-                     "modelingScore":  55
-                 },
-                 {
-                     "id":  "linkedin:4484675648",
-                     "company":  " Accompany Health ",
-                     "role":  "Senior Backend Engineer (Java)",
-                     "location":  "Bengaluru, Karnataka, India",
-                     "link":  "https://www.linkedin.com/jobs/view/senior-backend-engineer-java-at-accompany-health-4484675648/",
-                     "postedDate":  "6 days ago",
-                     "fit":  100,
-                     "fitReason":  "LinkedIn public India discovery match from India Remote Platform Engineer; verify JD, company, experience, and salary before applying",
-                     "keywords":  [
-                                      "backend engineer",
-                                      "platform engineer",
+                                      "backend developer",
                                       "java"
                                   ],
                      "applyType":  "External Apply",
@@ -897,7 +988,7 @@
                      "role":  "Senior Backend Engineer",
                      "location":  "Gurugram, Haryana, India",
                      "link":  "https://www.linkedin.com/jobs/view/senior-backend-engineer-at-amplify-health-4475798839/",
-                     "postedDate":  "3 days ago",
+                     "postedDate":  "4 days ago",
                      "fit":  100,
                      "fitReason":  "LinkedIn public India discovery match from India Remote Java Backend; verify JD, company, experience, and salary before applying",
                      "keywords":  [
@@ -912,139 +1003,16 @@
                      "modelingScore":  55
                  },
                  {
-                     "id":  "linkedin:4453594200",
-                     "company":  " GlobalLogic ",
-                     "role":  "Backend Java Developer (Java, Cloud, Kubernetes) – Staff Engineer IRC302353",
-                     "location":  "Pune City, Maharashtra, India",
-                     "link":  "https://www.linkedin.com/jobs/view/backend-java-developer-java-cloud-kubernetes-%E2%80%93-staff-engineer-irc302353-at-globallogic-4453594200/",
-                     "postedDate":  "1 day ago",
-                     "fit":  78,
-                     "fitReason":  "LinkedIn public India discovery match from India Remote Platform Engineer; verify JD, company, experience, and salary before applying",
-                     "keywords":  [
-                                      "platform engineer",
-                                      "java",
-                                      "kubernetes"
-                                  ],
-                     "applyType":  "External Apply",
-                     "classificationConfidence":  "Discovery",
-                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
-                     "azureScore":  45,
-                     "databricksScore":  45,
-                     "modelingScore":  55
-                 },
-                 {
-                     "id":  "linkedin:4487926036",
-                     "company":  " Quince ",
-                     "role":  "Software Development Engineer - 3 (Backend)",
-                     "location":  "Bengaluru, Karnataka, India",
-                     "link":  "https://www.linkedin.com/jobs/view/software-development-engineer-3-backend-at-quince-4487926036/",
-                     "postedDate":  "14 hours ago",
-                     "fit":  90,
-                     "fitReason":  "LinkedIn public India discovery match from India Remote Platform Engineer; verify JD, company, experience, and salary before applying",
-                     "keywords":  [
-                                      "platform engineer"
-                                  ],
-                     "applyType":  "External Apply",
-                     "classificationConfidence":  "Discovery",
-                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
-                     "azureScore":  45,
-                     "databricksScore":  45,
-                     "modelingScore":  55
-                 },
-                 {
-                     "id":  "linkedin:4486616686",
-                     "company":  " CreditSea ",
-                     "role":  "Senior Software Engineer (Backend)",
-                     "location":  "Raipur, Chhattisgarh, India",
-                     "link":  "https://www.linkedin.com/jobs/view/senior-software-engineer-backend-at-creditsea-4486616686/",
-                     "postedDate":  "2 days ago",
-                     "fit":  99,
-                     "fitReason":  "LinkedIn public India discovery match from India Remote Java Backend; verify JD, company, experience, and salary before applying",
-                     "keywords":  [
-                                      "backend engineer",
-                                      "java"
-                                  ],
-                     "applyType":  "External Apply",
-                     "classificationConfidence":  "Discovery",
-                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
-                     "azureScore":  45,
-                     "databricksScore":  45,
-                     "modelingScore":  55
-                 },
-                 {
-                     "id":  "linkedin:4487289914",
-                     "company":  " CGI ",
-                     "role":  "Java Backend developer Lead",
-                     "location":  "Hyderabad, Telangana, India",
-                     "link":  "https://www.linkedin.com/jobs/view/java-backend-developer-lead-at-cgi-4487289914/",
-                     "postedDate":  "5 days ago",
+                     "id":  "linkedin:4486947991",
+                     "company":  " Talentien ",
+                     "role":  "Java Backend Developer",
+                     "location":  "Kochi, Kerala, India",
+                     "link":  "https://www.linkedin.com/jobs/view/java-backend-developer-at-talentien-4486947991/",
+                     "postedDate":  "4 days ago",
                      "fit":  100,
-                     "fitReason":  "LinkedIn public India discovery match from Hyderabad Java Backend; verify JD, company, experience, and salary before applying",
+                     "fitReason":  "LinkedIn public India discovery match from India Remote Backend Developer; verify JD, company, experience, and salary before applying",
                      "keywords":  [
-                                      "backend engineer",
                                       "backend developer",
-                                      "java"
-                                  ],
-                     "applyType":  "External Apply",
-                     "classificationConfidence":  "Discovery",
-                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
-                     "azureScore":  45,
-                     "databricksScore":  45,
-                     "modelingScore":  55
-                 },
-                 {
-                     "id":  "linkedin:4486328909",
-                     "company":  " Quest Global ",
-                     "role":  "Java AWS Backend Developer (3–6 Years)",
-                     "location":  "Bengaluru, Karnataka, India",
-                     "link":  "https://www.linkedin.com/jobs/view/java-aws-backend-developer-3%E2%80%936-years-at-quest-global-4486328909/",
-                     "postedDate":  "5 days ago",
-                     "fit":  100,
-                     "fitReason":  "LinkedIn public India discovery match from India Remote Java Backend; verify JD, company, experience, and salary before applying",
-                     "keywords":  [
-                                      "backend engineer",
-                                      "backend developer",
-                                      "java",
-                                      "aws"
-                                  ],
-                     "applyType":  "External Apply",
-                     "classificationConfidence":  "Discovery",
-                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
-                     "azureScore":  45,
-                     "databricksScore":  45,
-                     "modelingScore":  55
-                 },
-                 {
-                     "id":  "linkedin:4486066411",
-                     "company":  " Rempact ",
-                     "role":  "Lead Backend Engineer",
-                     "location":  "Delhi, Delhi, India",
-                     "link":  "https://www.linkedin.com/jobs/view/lead-backend-engineer-at-rempact-4486066411/",
-                     "postedDate":  "6 days ago",
-                     "fit":  100,
-                     "fitReason":  "LinkedIn public India discovery match from India Remote Platform Engineer; verify JD, company, experience, and salary before applying",
-                     "keywords":  [
-                                      "backend engineer",
-                                      "platform engineer"
-                                  ],
-                     "applyType":  "External Apply",
-                     "classificationConfidence":  "Discovery",
-                     "notes":  "LinkedIn public result restored to match the previous ntfy alert style. Verify before applying.",
-                     "azureScore":  45,
-                     "databricksScore":  45,
-                     "modelingScore":  55
-                 },
-                 {
-                     "id":  "linkedin:4487291368",
-                     "company":  " PUMA Group ",
-                     "role":  "Senior Software Engineer (Backend) - Consumer Intelligence \u0026 Engagement- Consumer Intelligence \u0026 Engagement",
-                     "location":  "Pune Division, Maharashtra, India",
-                     "link":  "https://www.linkedin.com/jobs/view/senior-software-engineer-backend-consumer-intelligence-engagement-consumer-intelligence-engagement-at-puma-group-4487291368/",
-                     "postedDate":  "5 days ago",
-                     "fit":  100,
-                     "fitReason":  "LinkedIn public India discovery match from India Remote Java Backend; verify JD, company, experience, and salary before applying",
-                     "keywords":  [
-                                      "backend engineer",
                                       "java"
                                   ],
                      "applyType":  "External Apply",
